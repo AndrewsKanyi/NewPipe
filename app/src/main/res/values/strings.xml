@@ -714,4 +714,5 @@
     <string name="night_theme_summary">Select your favorite night theme — %s</string>
     <string name="select_night_theme_toast">You can select your favorite night theme below</string>
     <string name="download_has_started">Download has started</string>
+    <string name="menu_item_rename_playlist">Rename playlist</string>
 </resources>

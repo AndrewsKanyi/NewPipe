@@ -362,7 +362,11 @@ public class LocalPlaylistFragment extends BaseLocalListFragment<List<PlaylistSt
                         .show();
             }
         } else {
-            return super.onOptionsItemSelected(item);
+            if (item.getItemId() == R.id.menu_item_rename_playlist) {
+                createRenameDialog();
+            } else {
+                return super.onOptionsItemSelected(item);
+            }
         }
         return true;
     }
